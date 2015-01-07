@@ -14,6 +14,9 @@
 		0396E5961A5CEAEF0052CCCA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0396E5951A5CEAEF0052CCCA /* Images.xcassets */; };
 		0396E5991A5CEAEF0052CCCA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0396E5971A5CEAEF0052CCCA /* LaunchScreen.xib */; };
 		0396E5A51A5CEAEF0052CCCA /* WordPlayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0396E5A41A5CEAEF0052CCCA /* WordPlayTests.m */; };
+		0396E5B01A5CEC4A0052CCCA /* EnterNameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0396E5AF1A5CEC4A0052CCCA /* EnterNameViewController.m */; };
+		0396E5B31A5CED370052CCCA /* EnterAdjectiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0396E5B21A5CED370052CCCA /* EnterAdjectiveViewController.m */; };
+		0396E5B61A5CEE210052CCCA /* ResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0396E5B51A5CEE210052CCCA /* ResultsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,12 @@
 		0396E59E1A5CEAEF0052CCCA /* WordPlayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WordPlayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0396E5A31A5CEAEF0052CCCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0396E5A41A5CEAEF0052CCCA /* WordPlayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WordPlayTests.m; sourceTree = "<group>"; };
+		0396E5AE1A5CEC4A0052CCCA /* EnterNameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EnterNameViewController.h; path = ../EnterNameViewController.h; sourceTree = "<group>"; };
+		0396E5AF1A5CEC4A0052CCCA /* EnterNameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EnterNameViewController.m; path = ../EnterNameViewController.m; sourceTree = "<group>"; };
+		0396E5B11A5CED370052CCCA /* EnterAdjectiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EnterAdjectiveViewController.h; path = ../EnterAdjectiveViewController.h; sourceTree = "<group>"; };
+		0396E5B21A5CED370052CCCA /* EnterAdjectiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EnterAdjectiveViewController.m; path = ../EnterAdjectiveViewController.m; sourceTree = "<group>"; };
+		0396E5B41A5CEE210052CCCA /* ResultsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ResultsViewController.h; path = ../ResultsViewController.h; sourceTree = "<group>"; };
+		0396E5B51A5CEE210052CCCA /* ResultsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ResultsViewController.m; path = ../ResultsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +94,12 @@
 				0396E58D1A5CEAEF0052CCCA /* AppDelegate.m */,
 				0396E58F1A5CEAEF0052CCCA /* ViewController.h */,
 				0396E5901A5CEAEF0052CCCA /* ViewController.m */,
+				0396E5AE1A5CEC4A0052CCCA /* EnterNameViewController.h */,
+				0396E5AF1A5CEC4A0052CCCA /* EnterNameViewController.m */,
+				0396E5B11A5CED370052CCCA /* EnterAdjectiveViewController.h */,
+				0396E5B21A5CED370052CCCA /* EnterAdjectiveViewController.m */,
+				0396E5B41A5CEE210052CCCA /* ResultsViewController.h */,
+				0396E5B51A5CEE210052CCCA /* ResultsViewController.m */,
 				0396E5921A5CEAEF0052CCCA /* Main.storyboard */,
 				0396E5951A5CEAEF0052CCCA /* Images.xcassets */,
 				0396E5971A5CEAEF0052CCCA /* LaunchScreen.xib */,
@@ -221,6 +236,9 @@
 			files = (
 				0396E5911A5CEAEF0052CCCA /* ViewController.m in Sources */,
 				0396E58E1A5CEAEF0052CCCA /* AppDelegate.m in Sources */,
+				0396E5B31A5CED370052CCCA /* EnterAdjectiveViewController.m in Sources */,
+				0396E5B61A5CEE210052CCCA /* ResultsViewController.m in Sources */,
+				0396E5B01A5CEC4A0052CCCA /* EnterNameViewController.m in Sources */,
 				0396E58B1A5CEAEF0052CCCA /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
