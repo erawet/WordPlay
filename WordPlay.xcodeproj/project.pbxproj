@@ -17,6 +17,8 @@
 		0396E5B01A5CEC4A0052CCCA /* EnterNameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0396E5AF1A5CEC4A0052CCCA /* EnterNameViewController.m */; };
 		0396E5B31A5CED370052CCCA /* EnterAdjectiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0396E5B21A5CED370052CCCA /* EnterAdjectiveViewController.m */; };
 		0396E5B61A5CEE210052CCCA /* ResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0396E5B51A5CEE210052CCCA /* ResultsViewController.m */; };
+		03C0B7921A5E05D000FA1E73 /* EnterAdverbViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03C0B7911A5E05D000FA1E73 /* EnterAdverbViewController.m */; };
+		03C0B7951A5E062E00FA1E73 /* WordSelectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03C0B7941A5E062E00FA1E73 /* WordSelectionViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,10 @@
 		0396E5B21A5CED370052CCCA /* EnterAdjectiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EnterAdjectiveViewController.m; path = ../EnterAdjectiveViewController.m; sourceTree = "<group>"; };
 		0396E5B41A5CEE210052CCCA /* ResultsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ResultsViewController.h; path = ../ResultsViewController.h; sourceTree = "<group>"; };
 		0396E5B51A5CEE210052CCCA /* ResultsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ResultsViewController.m; path = ../ResultsViewController.m; sourceTree = "<group>"; };
+		03C0B7901A5E05D000FA1E73 /* EnterAdverbViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EnterAdverbViewController.h; path = ../EnterAdverbViewController.h; sourceTree = "<group>"; };
+		03C0B7911A5E05D000FA1E73 /* EnterAdverbViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EnterAdverbViewController.m; path = ../EnterAdverbViewController.m; sourceTree = "<group>"; };
+		03C0B7931A5E062E00FA1E73 /* WordSelectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WordSelectionViewController.h; path = ../WordSelectionViewController.h; sourceTree = "<group>"; };
+		03C0B7941A5E062E00FA1E73 /* WordSelectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WordSelectionViewController.m; path = ../WordSelectionViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,8 +102,12 @@
 				0396E5901A5CEAEF0052CCCA /* ViewController.m */,
 				0396E5AE1A5CEC4A0052CCCA /* EnterNameViewController.h */,
 				0396E5AF1A5CEC4A0052CCCA /* EnterNameViewController.m */,
+				03C0B7931A5E062E00FA1E73 /* WordSelectionViewController.h */,
+				03C0B7941A5E062E00FA1E73 /* WordSelectionViewController.m */,
 				0396E5B11A5CED370052CCCA /* EnterAdjectiveViewController.h */,
 				0396E5B21A5CED370052CCCA /* EnterAdjectiveViewController.m */,
+				03C0B7901A5E05D000FA1E73 /* EnterAdverbViewController.h */,
+				03C0B7911A5E05D000FA1E73 /* EnterAdverbViewController.m */,
 				0396E5B41A5CEE210052CCCA /* ResultsViewController.h */,
 				0396E5B51A5CEE210052CCCA /* ResultsViewController.m */,
 				0396E5921A5CEAEF0052CCCA /* Main.storyboard */,
@@ -235,8 +245,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				0396E5911A5CEAEF0052CCCA /* ViewController.m in Sources */,
+				03C0B7951A5E062E00FA1E73 /* WordSelectionViewController.m in Sources */,
 				0396E58E1A5CEAEF0052CCCA /* AppDelegate.m in Sources */,
 				0396E5B31A5CED370052CCCA /* EnterAdjectiveViewController.m in Sources */,
+				03C0B7921A5E05D000FA1E73 /* EnterAdverbViewController.m in Sources */,
 				0396E5B61A5CEE210052CCCA /* ResultsViewController.m in Sources */,
 				0396E5B01A5CEC4A0052CCCA /* EnterNameViewController.m in Sources */,
 				0396E58B1A5CEAEF0052CCCA /* main.m in Sources */,
@@ -430,6 +442,7 @@
 				0396E5AA1A5CEAEF0052CCCA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0396E5AB1A5CEAEF0052CCCA /* Build configuration list for PBXNativeTarget "WordPlayTests" */ = {
 			isa = XCConfigurationList;
@@ -438,6 +451,7 @@
 				0396E5AD1A5CEAEF0052CCCA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

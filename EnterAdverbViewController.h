@@ -10,4 +10,6 @@
 
 @interface EnterAdverbViewController : UIViewController
 
+@property NSString *userName;
+
 @end

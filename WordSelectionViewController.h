@@ -10,4 +10,6 @@
 
 @interface WordSelectionViewController : UIViewController
 
+@property (nonatomic,strong) NSString * name;
+
 @end

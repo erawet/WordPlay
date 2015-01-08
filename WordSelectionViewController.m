@@ -7,6 +7,8 @@
 //
 
 #import "WordSelectionViewController.h"
+#import "EnterAdjectiveViewController.h"
+#import "EnterAdverbViewController.h"
 
 @interface WordSelectionViewController ()
 
@@ -16,22 +18,20 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+  
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
 
-/*
-#pragma mark - Navigation
+-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
+    
+    if ([segue.identifier isEqualToString:@"adverbSegue"]) {
+        EnterAdverbViewController *advVC=segue.destinationViewController;
+        advVC.userName=self.name;
+    } else if ([segue.identifier isEqualToString:@"adjectiveSegue"]){
+        EnterAdjectiveViewController *adjVC=segue.destinationViewController;
+        adjVC.name=self.name;
+    }
 
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
 }
-*/
 
 @end

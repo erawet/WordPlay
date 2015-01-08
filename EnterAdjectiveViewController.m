@@ -36,9 +36,10 @@
    
     ResultsViewController *rVC=segue.destinationViewController;
    
-    if ([segue.identifier isEqualToString:@"goToResultSegue"]){
+    if ([segue.identifier isEqualToString:@"adjectiveToResult"]){
         rVC.adjectiveText= self.adjectiveTextField.text;
         rVC.nameText=self.name;
+        rVC.commingFromAdjView=YES;
     }
     
 }

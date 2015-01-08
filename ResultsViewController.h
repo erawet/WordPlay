@@ -10,7 +10,9 @@
 
 @interface ResultsViewController : UIViewController
 
+@property NSString *adverbText;
 @property NSString *adjectiveText;
 @property NSString *nameText;
+@property BOOL commingFromAdjView;
 
 @end
